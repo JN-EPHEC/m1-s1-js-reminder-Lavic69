@@ -20,3 +20,8 @@ const albumData = {
 };
 
 // Your code here
+
+console.log( "The album " + albumData.name + " was written by " + albumData.artist + " in " + albumData.releaseYear + " and here are some tracks: " + albumData.tracks);
+
+const tracklist = albumData.tracks.map(track => "Track " + track);
+console.log(tracklist);

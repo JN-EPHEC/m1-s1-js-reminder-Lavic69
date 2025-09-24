@@ -37,3 +37,8 @@ const albumData = {
 };
 
 // Your code here
+
+const user = { fisrtname: "Jane", lastname: "Doe" };
+const { firstName, lastName } = user;
+console.log(firstName); 
+console.log(lastName);
